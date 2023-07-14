@@ -16,29 +16,35 @@ body{
 .muzzer-logo{
     display: flex;
     align-self: center;
-    color: #d81414;
+    background: linear-gradient(90deg, #d81414, #ff8686);
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 20px;
     
     font-family: 'Atkinson Hyperlegible';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 16px;
+    /*line-height: 16px;*/
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.muzzer-logo-responsive{
+.muzzerlogoresponsive{
     display: none;
     align-self: center;
-    color: #d81414;
+    background: linear-gradient(90deg, #d81414, #ff8686);
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 20px;
     
     font-family: 'Atkinson Hyperlegible';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 16px;
+    /*line-height: 16px;*/
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .left-header{
@@ -46,12 +52,12 @@ body{
     justify-content: space-between;
 }
 
-.links{
+.header-links{
     display: flex;
     margin-right: 30px
 }
 
-.links a{
+.header-links a{
     display: flex;
     align-self: center;
     color: #d81414;
@@ -67,7 +73,7 @@ body{
     transition: all 0.3s;
 }
 
-.links a:hover{
+.header-links a:hover{
     color: #ff8686;
     transition: all 0.3s;
 }
@@ -85,7 +91,7 @@ body{
 
 .github-link{
     display: flex;
-    border: solid 1px #d81414;
+    border: solid 1px #d81414;;
     border-radius: 5px;
 }
 
@@ -112,6 +118,197 @@ body{
     font-size: 17.5px;
     line-height: 16px;
 }
+
+.responsiveheader{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #d81414, #ff8686);
+    height: 200px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.responsiveheader a{
+    display: flex;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.5px;
+    line-height: 16px;
+}
+
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    
+}
+
+.title{
+    display: flex;
+    align-self: center;
+    background: linear-gradient(90deg, #d81414, #ff8686);
+    text-decoration: none;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 30px;
+    
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    /*line-height: 16px;*/
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-muzzer{
+    display: flex;
+    align-self: center;
+    background: linear-gradient(90deg, #d81414, #ff8686);
+    text-decoration: none;
+    text-align: center;
+    
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    /*line-height: 16px;*/
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description{
+    align-self: center;
+    color: #747373;
+    text-align: center;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: 0;
+
+    padding: 30px;
+}
+
+.links{
+    color: #d81414;
+    transition: all 0.3s;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.links:hover{
+    color:#ff8686;
+    transition: all 0.3s;
+}
+
+.get-started{
+    text-decoration: none;
+}
+
+.get-started button{
+    display: flex;
+    align-items: center;
+    background : #d81414;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    padding-left: 37.5px;
+    color: white;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+
+    transition: all 0.3s;
+}
+
+.get-started button:hover{
+    background: #ff8686;
+    transition: all 0.3s;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.copyrights{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.muzzer-logo-footer{
+    align-self: center;
+    background: linear-gradient(90deg, #d81414, #ff8686);
+    text-decoration: none;
+    margin-top: 50px;
+    
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    /*line-height: 16px;*/
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    flex-wrap: wrap;
+}
+
+.footer-blocs{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.footer-title{
+    color: #424242;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer-link{
+    color: #747373;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 @media only screen and (max-width: 720px) {
     .header {
         height: 90px;
@@ -122,12 +319,41 @@ body{
         display: none;
     }
 
-    .muzzer-logo-responsive{
+    .muzzerlogoresponsive{
         display: flex;
     }
 
-    .links{
+    .header-links{
         display: none;
+    }
+
+    .responsiveheader-visible {
+        display: flex;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .title-muzzer{
+        font-size: 60px;
+        margin-left: 10px;
+    }
+
+    .description{
+        font-size: 15px;
+    }
+
+    .footer-title{
+        font-size: 20px;
+    }
+
+    .footer-link{
+        font-size: 15px;
+    }
+
+    .footer-content{
+        width: 200px;
     }
 }
 
