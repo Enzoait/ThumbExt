@@ -1,0 +1,120 @@
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    
+}
+
+.title{
+    display: flex;
+    align-self: center;
+    background: linear-gradient(90deg, #d81414, #ff8686);
+    text-decoration: none;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 30px;
+    
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    /*line-height: 16px;*/
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-muzzer{
+    display: flex;
+    align-self: center;
+    background: linear-gradient(90deg, #d81414, #ff8686);
+    text-decoration: none;
+    text-align: center;
+    
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    /*line-height: 16px;*/
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description{
+    align-self: center;
+    color: #747373;
+    text-align: center;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: 0;
+
+    padding: 30px;
+}
+
+.links{
+    color: #d81414;
+    transition: all 0.3s;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.links:hover{
+    color:#ff8686;
+    transition: all 0.3s;
+}
+
+.get-started{
+    text-decoration: none;
+}
+
+.get-started button{
+    display: flex;
+    align-items: center;
+    background : #d81414;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    padding-left: 37.5px;
+    color: white;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+
+    transition: all 0.3s;
+}
+
+.get-started button:hover{
+    background: #ff8686;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 720px) {
+    .title{
+        font-size: 30px;
+    }
+
+    .title-muzzer{
+        font-size: 60px;
+        margin-left: 10px;
+    }
+
+    .description{
+        font-size: 15px;
+    }
+}

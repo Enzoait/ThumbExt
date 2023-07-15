@@ -1,0 +1,47 @@
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px
+}
+
+form{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.searchbar{
+    background: #ffffff;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    transition: all 0.3s;
+    margin-right: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.submit-btn{
+    background: #d81414;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background: #ff8686;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 720px){
+    .mainpage{
+        margin-left: 0;
+        margin-right: 0;;
+    }
+}
