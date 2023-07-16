@@ -1,4 +1,0 @@
-Atkinson Hyperlegible
-
-Light : #d81414
-Dark :

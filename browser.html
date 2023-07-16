@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>Muzzer - Free online music player</title>
+  <title>Muzzer - Free online video player</title>
   <link href="/css/style.css" rel="stylesheet">
   <link href="/css/browser.css" rel="stylesheet">
 </head>
@@ -30,10 +30,18 @@
 
   <div class="mainpage">
     
-    <form>
-        <input type="text" class="searchbar" id="search" placeholder="Search for a song">
+    <form id="form">
+        <input type="text" class="searchbar" id="search" placeholder="Search for a video">
         <input type="submit" class="submit-btn" value="Search">
     </form>
+
+    <div class="box-videos">
+      <div class="div2">
+        <div id="videos" class="videos">
+
+        </div>
+      </div>
+    </div>
 
   </div>
 
@@ -72,4 +80,6 @@
 
   <script src="/js/toggleResponsiveheader.js"></script>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="/js/script.js"></script>
 </html>

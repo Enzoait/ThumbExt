@@ -39,9 +39,41 @@ form{
     transition: all 0.3s;
 }
 
+.box-videos{
+    display: flex;
+    margin-top: 30px;
+    align-self: center;
+}
+
+@media screen and (max-width: 980px){
+    .box-videos .div2 .videos iframe{
+        width: 720px; 
+        height: 460px;
+    }
+}
+
 @media screen and (max-width: 720px){
     .mainpage{
         margin-left: 0;
         margin-right: 0;;
+    }
+
+    .box-videos .div2 .videos iframe{
+        width: 600px; 
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .box-videos .div2 .videos iframe{
+        width: 400px; 
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .box-videos .div2 .videos iframe{
+        width: 280px; 
+        height: 157.5px;
     }
 }
