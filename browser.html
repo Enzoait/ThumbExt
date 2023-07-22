@@ -31,18 +31,71 @@
   <div class="mainpage">
     
     <form id="form">
-        <input type="text" class="searchbar" id="search" placeholder="Search for a video">
+        <input type="text" class="searchbar" id="search" placeholder="Paste your video URL here">
         <input type="submit" class="submit-btn" value="Search">
     </form>
-
-    <div class="box-videos">
-      <div class="div2">
-        <div id="videos" class="videos">
-
+    <div class="results">
+      <div class="instructions-box">
+        <div class="step">
+          <p class="get-started-title">3 easy and fast steps to get started</p>
+        </div>
+        <div class="step">
+          <p class="instruction-box-title">1. Search</p>
+          <p class="instruction-box-title-desc">Search the video from which you want to get the thumbnail and copy its URL.</p>
+          <div class="window-box">
+            <div class="header-window-box">
+              <div class="tools-container">
+                <img src="/img/leftarrow.svg" alt="leftarrow" class="nav-tools"/>
+                <img src="/img/rightarrow.svg" alt="rightarrow" class="nav-tools"/>
+                <img src="/img/reload.svg" alt="reload" class="nav-tools"/>
+              </div>
+              <input type="text" class="searchbar-3" placeholder="https://www.youtube.com" disabled>
+            </div>
+            <form class="form-2">
+              <input class="searchbar-2" placeholder="https://youtu.be/rfscVS0vtbw" disabled>
+              <input type="submit" class="submit-btn" value="Copy">
+            </form>
+          </div>
+        </div>
+        <div class="step">
+          <p class="instruction-box-title">2. Paste</p>
+          <p class="instruction-box-title-desc">Once copied, paste the URL in the searchbar and click on "Search".</p>
+          <form id="form-3" class="form-3">
+            <input type="text" class="searchbar-2" id="search-3" placeholder="Paste your video URL here">
+            <input type="submit" class="submit-btn" value="Search">
+        </form>
+        </div>
+        <div class="step">
+          <p class="instruction-box-title">3. Download</p>
+          <p class="instruction-box-title-desc">PC: Right click on the image and press "Save image as".</p>
+          <p class="instruction-box-title-desc">Mobile/Tab: Press the image for few seconds and press "Save in galery" or equivalent.</p>
+          <div class="right-click">
+            <p class="right-click-content">Open image in new tab</p>
+            <p class="right-click-content-red">Save image as</p>
+            <p class="right-click-content">Copy image</p>
+            <p class="right-click-content">Copy image adress</p>
+            <p class="right-click-content">Create QR code for this image</p>
+            <p class="right-click-content">Search image with google</p>
+            <p class="right-click-content">Inspect</p>
+          </div>
         </div>
       </div>
-    </div>
 
+      <div class="box-videos">
+        <div class="div2">
+          <p class="video-box-title">Original Video</p>
+          <div id="videos" class="videos">
+  
+          </div>
+        </div>
+        <div class="div2">
+          <p class="video-box-title">Video's Thumbnail</p>
+          <div id="thumbnail" class="thumbnail-box">
+        
+          </div>
+      </div>
+      </div>
+    </div>
   </div>
 
   <div class="footer">

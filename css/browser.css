@@ -1,8 +1,8 @@
 .mainpage{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px
+    margin-left: 50px;
+    margin-right: 50px
 }
 
 form{
@@ -17,8 +17,29 @@ form{
     border-radius: 5px;
     width: 500px;
     height: 30px;
-    transition: all 0.3s;
     margin-right: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.searchbar-2{
+    background: #ffffff;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    margin-right: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.searchbar-3{
+    background: #ffffff;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+    margin-left: 20px;
     outline: none;
     padding-left: 10px;
 }
@@ -39,12 +60,145 @@ form{
     transition: all 0.3s;
 }
 
-.box-videos{
+.results{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(0,0,0,0.2);
+    border-radius: 5px;
     margin-top: 30px;
-    align-self: center;
+    padding: 30px;
 }
 
+.window-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-window-box{
+    display: flex;
+    padding: 15px 0;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.tools-container{
+    display: flex;
+    margin-left: 10px;
+    gap: 5px;
+}
+
+.nav-tools{
+    width: 20px;
+}
+
+.form-2{
+    margin: 0;
+    padding: 15px 0 100px 15px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    justify-content: flex-start;
+}
+
+.form-3{
+    margin: 0;
+    justify-content: flex-start;
+}
+
+.right-click{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    width: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.right-click-content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    margin-right: 10px;
+    color: #747373;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.right-click-content-red{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px; 
+    border: 1.5px solid #d81414;
+    border-radius: 5px;
+    color: #747373;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.get-started-title{
+    color: #424242;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.instruction-box-title{
+    color: #424242;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    
+}
+
+.instruction-box-title-desc{
+    color: #747373;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 15px;
+    
+}
+
+.box-videos{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.video-box-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #424242;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+/*
 @media screen and (max-width: 980px){
     .box-videos .div2 .videos iframe{
         width: 720px; 
@@ -76,4 +230,4 @@ form{
         width: 280px; 
         height: 157.5px;
     }
-}
+}*/

@@ -1,16 +1,17 @@
 # Muzzer
-Simple online music browser using YouTube API.
+Simple youtube thumbnail extractor using YouTube API.
 
-TO-DO : 
-
-- Front-end
-- Connect YouTube API
-- Back-end
-
-
-Font used : 
+## Font used : 
 
 Atkinson Hyperlegible
 
-Light : #d81414
-Dark :
+## Futures additions : 
+
+- Dark Mode
+- .webp images compatiblity
+- Responsive design with media queries
+- Change name to ThumbLoader (thumbloader.com)
+- Add about page
+- Add a tutorial page
+- Add a fav-icon (icone sur l'onglet chrome)
+
