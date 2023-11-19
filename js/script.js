@@ -31,13 +31,14 @@ $(document).ready(function(){
                 
                 <iframe width="500" height = "281" src= "https://www.youtube.com/embed/${items.id.videoId}" frameborder="0" allowfullscreen></iframe>
                 
-                `
+                `;
+
+                var thumbnailWidth = (window.innerWidth < 450) ? 180 : 500;
+                var thumbnailHeight = (window.innerWidth < 450) ? 130 : 281;
 
                 thumbnail = `
-
-                <img src="https://i.ytimg.com/vi/${items.id.videoId}/maxresdefault.jpg" width="500px" height="281px"/>
-                
-                `
+                    <img src="https://i.ytimg.com/vi/${items.id.videoId}/maxresdefault.jpg" width="${thumbnailWidth}px" height="${thumbnailHeight}"/>
+                `;
 
                 $('#videos').append(video)
                 $('#thumbnail').append(thumbnail)

@@ -1,4 +1,4 @@
-# ThumbExt. v1.0
+# ThumbExt. v1.1
 
 ### *Made with ❤️ by [Enzoait](https://www/github.com/Enzoait)*
 
@@ -30,12 +30,11 @@ var API_KEY = "YOUR_API_KEY_HERE" // You can generate your own API key by visiti
 
 ### 4 Done !
 
-## V1 Released ! (07/29/2023), Here's what's new :
+## v.1.1 Released ! (11/19/2023), Here's what's new :
 
-- ThumbExt open source release
-- Light Mode
-- Operational
-- Homepage is now responsive
+- Now compatible with mobile devices
+- Favicon added 
+
 
 ## Font used : 
 
@@ -45,8 +44,14 @@ Atkinson Hyperlegible
 
 - Dark Mode
 - .webp images compatiblity
-- Responsive design with media queries
 - Add about page
 - Add a tutorial page
-- Add a tab icon (icone sur l'onglet chrome)
 
+## Previous versions :
+
+### v.1.0 (07/29/2023) :
+
+- ThumbExt open source release
+- Light Mode
+- Operational
+- Homepage is now responsive

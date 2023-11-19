@@ -150,7 +150,7 @@ form{
     color: #424242;
     font-family: 'Atkinson Hyperlegible';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 25px;
     margin-top: 0;
     margin-bottom: 0;
@@ -198,6 +198,8 @@ form{
     font-size: 20px;
 }
 
+
+
 /*
 @media screen and (max-width: 980px){
     .box-videos .div2 .videos iframe{
@@ -224,10 +226,72 @@ form{
         height: 240px;
     }
 }
+*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .box-videos .div2 .videos iframe{
-        width: 280px; 
-        height: 157.5px;
+        width: 180px; 
+        height: 130px;
+        
     }
-}*/
+
+    .box-videos{
+        margin-top: 20px;
+    }
+
+    .results{
+        flex-direction: column;
+    }
+
+    .right-click{
+        display: none;
+    }
+
+    .header-window-box{
+        flex-direction: column;
+    }
+
+    .tools-container{
+        margin-left: 0;
+    }
+
+    .searchbar-3{
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 175px;
+    }
+
+    .header-window-box{
+        padding: 15px 10px;
+    }
+
+    .form-2{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .searchbar-2{
+        width: 175px;
+    }
+
+    .form-2 .submit-btn{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 190px;
+    }
+
+    .form-3{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .searchbar-3{
+        width: 175px;
+    }
+
+    .form-3 .submit-btn{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 190px;
+    }
+}
