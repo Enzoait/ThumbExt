@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var API_KEY = "YOUR_API_KEY_HERE" // You can generate your own API key by visiting https://console.cloud.google.com/apis/credentials
+    window.VERCEL_ENV_API_KEY = "{{VERCEL_ENV_API_KEY}}"; 
 
     var video = ""
     var thumbnail = ""
@@ -8,13 +8,13 @@ $(document).ready(function(){
     $("#form").submit(function (event){
         event.preventDefault()
         var search = $("#search").val()
-        videoSearch(API_KEY,search,1)
+        videoSearch(config.apiKey,search,1)
     })
 
     $("#form-3").submit(function (event){
         event.preventDefault()
         var search = $("#search-3").val()
-        videoSearch(API_KEY,search,1)
+        videoSearch(config.apiKey,search,1)
     })
 
     function videoSearch(key,search,maxResults){

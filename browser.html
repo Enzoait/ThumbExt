@@ -1,139 +1,197 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>ThumbExt. - Free youtube thumbnail extractor</title>
-  <link rel="icon" href="./img/favicon.png">
-  <link href="/css/style.css" rel="stylesheet">
-  <link href="/css/browser.css" rel="stylesheet">
-</head>
-<body>
-  <div class="header">
-    <a href="#" class="muzzerlogoresponsive">T.</a>
-    <a href="homepage.html" class="muzzer-logo">ThumbExt.</a>
-    <div class="left-header">
-      <div class="header-links">
-        <a href="homepage.html">Home</a>
-        <a href="browser.html">Browse</a>
-        <a href="about.html">About</a>
-      </div>
-      <div class="right-links">
-        <a href="https://github.com/Enzoait/ThumbExt" target="_blank"><div class="github-link"><img src="img/github-logo.svg" alt="GitHub" class="github-logo"><button class="github-button">View Source</button></div></a>
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>ThumbExt. - Free youtube thumbnail extractor</title>
+    <link rel="icon" href="./img/favicon.png" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/browser.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="#" class="muzzerlogoresponsive">T.</a>
+      <a href="homepage.html" class="muzzer-logo">ThumbExt.</a>
+      <div class="left-header">
+        <div class="header-links">
+          <a href="homepage.html">Home</a>
+          <a href="browser.html">Browse</a>
+          <a href="about.html">About</a>
+        </div>
+        <div class="right-links">
+          <a href="https://github.com/Enzoait/ThumbExt" target="_blank"
+            ><div class="github-link">
+              <img
+                src="img/github-logo.svg"
+                alt="GitHub"
+                class="github-logo"
+              /><button class="github-button">View Source</button>
+            </div></a
+          >
+        </div>
       </div>
     </div>
-  </div>
-  <div class="responsiveheader">
-    <a href="homepage.html">Home</a>
-    <a href="browser.html">Browse</a>
-    <a href="about.html">About</a>
-    <a href="https://github.com/Enzoait/ThumbExt" target="_blank">GitHub</a>
-  </div>
+    <div class="responsiveheader">
+      <a href="homepage.html">Home</a>
+      <a href="browser.html">Browse</a>
+      <a href="about.html">About</a>
+      <a href="https://github.com/Enzoait/ThumbExt" target="_blank">GitHub</a>
+    </div>
 
-  <div class="mainpage">
-    
-    <form id="form">
-        <input type="text" class="searchbar" id="search" placeholder="Paste your video URL here">
-        <input type="submit" class="submit-btn" value="Search">
-    </form>
-    <div class="results">
-      <div class="instructions-box">
-        <div class="step">
-          <p class="get-started-title">3 easy and fast steps to get started</p>
-        </div>
-        <div class="step">
-          <p class="instruction-box-title">1. Search</p>
-          <p class="instruction-box-title-desc">Search the video from which you want to get the thumbnail and copy its URL.</p>
-          <div class="window-box">
-            <div class="header-window-box">
-              <div class="tools-container">
-                <img src="/img/leftarrow.svg" alt="leftarrow" class="nav-tools"/>
-                <img src="/img/rightarrow.svg" alt="rightarrow" class="nav-tools"/>
-                <img src="/img/reload.svg" alt="reload" class="nav-tools"/>
+    <div class="mainpage">
+      <form id="form">
+        <input
+          type="text"
+          class="searchbar"
+          id="search"
+          placeholder="Paste your video URL here"
+        />
+        <input type="submit" class="submit-btn" value="Search" />
+      </form>
+      <div class="results">
+        <div class="instructions-box">
+          <div class="step">
+            <p class="get-started-title">
+              3 easy and fast steps to get started
+            </p>
+          </div>
+          <div class="step">
+            <p class="instruction-box-title">1. Search</p>
+            <p class="instruction-box-title-desc">
+              Search the video from which you want to get the thumbnail and copy
+              its URL.
+            </p>
+            <div class="window-box">
+              <div class="header-window-box">
+                <div class="tools-container">
+                  <img
+                    src="/img/leftarrow.svg"
+                    alt="leftarrow"
+                    class="nav-tools"
+                  />
+                  <img
+                    src="/img/rightarrow.svg"
+                    alt="rightarrow"
+                    class="nav-tools"
+                  />
+                  <img src="/img/reload.svg" alt="reload" class="nav-tools" />
+                </div>
+                <input
+                  type="text"
+                  class="searchbar-3"
+                  placeholder="https://www.youtube.com"
+                  disabled
+                />
               </div>
-              <input type="text" class="searchbar-3" placeholder="https://www.youtube.com" disabled>
+              <form class="form-2">
+                <input
+                  class="searchbar-2"
+                  placeholder="https://youtu.be/rfscVS0vtbw"
+                  disabled
+                />
+                <input type="submit" class="submit-btn" value="Copy" />
+              </form>
             </div>
-            <form class="form-2">
-              <input class="searchbar-2" placeholder="https://youtu.be/rfscVS0vtbw" disabled>
-              <input type="submit" class="submit-btn" value="Copy">
+          </div>
+          <div class="step">
+            <p class="instruction-box-title">2. Paste</p>
+            <p class="instruction-box-title-desc">
+              Once copied, paste the URL in the searchbar and click on "Search".
+            </p>
+            <form id="form-3" class="form-3">
+              <input
+                type="text"
+                class="searchbar-2"
+                id="search-3"
+                placeholder="Paste your video URL here"
+              />
+              <input type="submit" class="submit-btn" value="Search" />
             </form>
           </div>
+          <div class="step">
+            <p class="instruction-box-title">3. Download</p>
+            <p class="instruction-box-title-desc">
+              PC: Right click on the image and press "Save image as".
+            </p>
+            <p class="instruction-box-title-desc">
+              Mobile/Tab: Press the image for few seconds and press "Save in
+              gallery" or equivalent.
+            </p>
+            <div class="right-click">
+              <p class="right-click-content">Open image in new tab</p>
+              <p class="right-click-content-red">Save image as</p>
+              <p class="right-click-content">Copy image</p>
+              <p class="right-click-content">Copy image adress</p>
+              <p class="right-click-content">Create QR code for this image</p>
+              <p class="right-click-content">Search image with google</p>
+              <p class="right-click-content">Inspect</p>
+            </div>
+          </div>
         </div>
-        <div class="step">
-          <p class="instruction-box-title">2. Paste</p>
-          <p class="instruction-box-title-desc">Once copied, paste the URL in the searchbar and click on "Search".</p>
-          <form id="form-3" class="form-3">
-            <input type="text" class="searchbar-2" id="search-3" placeholder="Paste your video URL here">
-            <input type="submit" class="submit-btn" value="Search">
-        </form>
-        </div>
-        <div class="step">
-          <p class="instruction-box-title">3. Download</p>
-          <p class="instruction-box-title-desc">PC: Right click on the image and press "Save image as".</p>
-          <p class="instruction-box-title-desc">Mobile/Tab: Press the image for few seconds and press "Save in gallery" or equivalent.</p>
-          <div class="right-click">
-            <p class="right-click-content">Open image in new tab</p>
-            <p class="right-click-content-red">Save image as</p>
-            <p class="right-click-content">Copy image</p>
-            <p class="right-click-content">Copy image adress</p>
-            <p class="right-click-content">Create QR code for this image</p>
-            <p class="right-click-content">Search image with google</p>
-            <p class="right-click-content">Inspect</p>
+
+        <div class="box-videos">
+          <div class="div2">
+            <p class="video-box-title">Original Video</p>
+            <div id="videos" class="videos"></div>
+          </div>
+          <div class="div2">
+            <p class="video-box-title">Video's Thumbnail</p>
+            <div id="thumbnail" class="thumbnail-box"></div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="box-videos">
-        <div class="div2">
-          <p class="video-box-title">Original Video</p>
-          <div id="videos" class="videos">
-  
-          </div>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-blocs">
+          <p class="footer-title">Naviguate</p>
+          <a href="homepage.html" class="footer-link">Home</a>
+          <a href="browser.html" class="footer-link">Browse</a>
+          <a href="about.html" class="footer-link">About</a>
         </div>
-        <div class="div2">
-          <p class="video-box-title">Video's Thumbnail</p>
-          <div id="thumbnail" class="thumbnail-box">
-        
-          </div>
+
+        <div class="footer-blocs">
+          <p class="footer-title">Under Construction</p>
+          <a href="#" class="footer-link" target="_blank">Coming Soon !</a>
+          <a href="#" class="footer-link" target="_blank">Coming Soon !</a>
+        </div>
+
+        <div class="footer-blocs">
+          <p class="footer-title">Under Construction</p>
+          <a href="#" class="footer-link" target="_blank">Coming Soon !</a>
+          <a href="#" class="footer-link" target="_blank">Coming Soon !</a>
+        </div>
+
+        <div class="footer-blocs">
+          <p class="footer-title">More</p>
+          <a
+            href="https://github.com/Enzoait"
+            class="footer-link"
+            target="_blank"
+            >My GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/enzo-ait-yakoub-a19254231/"
+            class="footer-link"
+            target="_blank"
+            >My Linked-In</a
+          >
+        </div>
       </div>
+      <div class="copyrights">
+        <a href="homepage.html" class="muzzer-logo-footer">ThumbExt.</a>
+        <p class="description">
+          ThumbExt. © All rights reserved - 2023. Made by
+          <a href="https://www.github.com/Enzoait" class="links" target="_blank"
+            >Enzoait</a
+          >.
+        </p>
       </div>
     </div>
-  </div>
 
-  <div class="footer">
-    <div class="footer-content">
-     <div class="footer-blocs">
-        <p class="footer-title">Naviguate</p>
-        <a href="homepage.html" class="footer-link">Home</a>
-        <a href="browser.html" class="footer-link">Browse</a>
-        <a href="about.html" class="footer-link">About</a>
-     </div>
-
-     <div class="footer-blocs">
-        <p class="footer-title">Under Construction</p>
-        <a href="#" class="footer-link" target="_blank">Coming Soon !</a>
-        <a href="#" class="footer-link" target="_blank">Coming Soon !</a>
-    </div>
-
-   <div class="footer-blocs">
-      <p class="footer-title">Under Construction</p>
-      <a href="#" class="footer-link" target="_blank">Coming Soon !</a>
-      <a href="#" class="footer-link" target="_blank">Coming Soon !</a>
-  </div>
-
-     <div class="footer-blocs">
-      <p class="footer-title">More</p>
-      <a href="https://github.com/Enzoait" class="footer-link" target="_blank">My GitHub</a>
-      <a href="https://www.linkedin.com/in/enzo-ait-yakoub-a19254231/" class="footer-link" target="_blank">My Linked-In</a>
-   </div>
-    </div>
-    <div class="copyrights">
-      <a href="homepage.html" class="muzzer-logo-footer">ThumbExt.</a>
-      <p class="description">ThumbExt. © All rights reserved - 2023. Made by <a href="https://www.github.com/Enzoait" class="links" target="_blank">Enzoait</a>.</p>
-    </div>
-  </div>
-
-  <script src="/js/toggleResponsiveheader.js"></script>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="/js/script.js"></script>
+    <script src="/js/toggleResponsiveheader.js"></script>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="/config.js"></script>
+  <script src="/js/script.js"></script>
 </html>
