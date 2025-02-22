@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-    window.API_KEY = "{{API_KEY}}"; 
-
     var video = ""
     var thumbnail = ""
 
