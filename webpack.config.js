@@ -10,7 +10,7 @@ module.exports = {
   // Entry point for application
   entry: "./js/script.js",
   output: {
-    path: __dirname + "/dist",
+    path: __dirname + "/public",
     filename: "bundle.js",
   },
   module: {
