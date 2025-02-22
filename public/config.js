@@ -1,3 +1,3 @@
 window.config = {
-  apiKey: process.env.NEXT_PUBLIC_API_KEY,
+  apiKey: process.env.API_KEY,
 };
