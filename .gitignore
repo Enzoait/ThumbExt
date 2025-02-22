@@ -1,1 +1,6 @@
 config.development.js
+# .env file
+.env
+
+# Node modules
+node_modules
