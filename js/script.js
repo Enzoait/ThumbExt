@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    window.VERCEL_ENV_API_KEY = "{{VERCEL_ENV_API_KEY}}"; 
+    window.API_KEY = "{{API_KEY}}"; 
 
     var video = ""
     var thumbnail = ""

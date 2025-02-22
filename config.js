@@ -1,3 +1,3 @@
 const config = {
-  apiKey: window.VERCEL_ENV_API_KEY,
+  apiKey: window.API_KEY,
 };
