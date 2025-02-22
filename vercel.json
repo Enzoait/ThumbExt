@@ -1,4 +1,5 @@
 {
+  "routes": [{ "src": "/homepage.html", "dest": "/homepage.html" }],
   "build": {
     "env": {
       "NEXT_PUBLIC_API_KEY": "API_KEY"
