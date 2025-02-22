@@ -6,9 +6,9 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 module.exports = {
-  mode: "production", 
+  mode: "production",
   // Entry point for application
-  entry: "./js/script.js",
+  entry: "./public/js/script.js",
   output: {
     path: __dirname + "/public",
     filename: "bundle.js",
